@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0a9dc03-48cd-4103-91a1-cb55943427c8" name="Changes" comment="" />
+    <list default="true" id="a0a9dc03-48cd-4103-91a1-cb55943427c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tutorial/src/main/java/com/example/tutorial/payroll/EmployeeModelAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/src/main/java/com/example/tutorial/payroll/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/src/main/java/com/example/tutorial/payroll/EmployeeController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +26,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/SongEunWoo/Desktop/dev/spring/spring-restful-tutorial",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "C:/Users/SongEunWoo/Desktop/dev/spring/tutorial",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.saveactions"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672038144678</updated>
       <workItem from="1672038145860" duration="36000" />
+      <workItem from="1672046554702" duration="19000" />
     </task>
     <servers />
   </component>
