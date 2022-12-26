@@ -1,4 +1,4 @@
-package com.example.springrestfultutorial;
+package com.example.springrestfultutorial.greeting;
 
 import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.web.bind.annotation.GetMapping;

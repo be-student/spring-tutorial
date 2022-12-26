@@ -1,4 +1,4 @@
-package com.example.springrestfultutorial;
+package com.example.springrestfultutorial.greeting;
 
 public class Greeting {
     private final long id;
