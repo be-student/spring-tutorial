@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -50,6 +51,17 @@ public class EmployeeController {
     Employee newEmployee(@RequestBody Employee newEmployee) {
 
         return repository.save(newEmployee);
+    }
+
+    @PostMapping("/employeesV2")
+    ResponseEntity<?> newEmployee(@RequestBody EmployeeV2 newEmployee) {
+
+//        EntityModel<EmployeeV2> entityModelV2 = assembler.toModel(repositoryV2.save(newEmployee));
+//
+//        return ResponseEntity //
+//                .created(entityModelV2.getRequiredLink(IanaLinkRelations.SELF).toUri()) //
+//                .body(entityModelV2);
+        return null;
     }
 
 //    @GetMapping("/employees/{id}")
